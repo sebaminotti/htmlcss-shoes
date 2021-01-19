@@ -1,0 +1,94 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+/* fine reset pagina scarpe */
+html {
+scroll-behavior: smooth;
+}
+body {
+
+font-family: 'Rubik Mono One', sans-serif;
+background-image: url(../img/sfondo1.jpg);
+}
+
+/* ---------------------------------------------- */
+
+nav {
+position: fixed;
+top: 0;
+margin: 0;
+width:100%;
+height: 60px;
+background-color:#2d2d2d;
+}
+/* fine  istruzioni nav */
+#name {
+float: left;
+text-align: center;
+line-height: 60PX;
+width:300px;
+height:100%;
+}
+#name h1{
+letter-spacing: 2px;
+color: white;
+}
+#menu{
+width: 300px;
+height:100%;
+
+float: right;
+}
+ul  li{
+margin-left: 30px;
+margin-top: 5px;
+display: inline-block;
+list-style: none;
+width: 50px;
+height: 50px;
+border: 2px solid white;
+border-radius: 50px;
+line-height: 50px;
+}
+ul li:hover{
+background-color:dodgerblue;
+transition: 0.8s;
+}
+ul li a{
+text-decoration: none;
+margin-left: 18px;
+color: white;
+}
+ul li:hover a{
+color: red;
+}
+/* fine sezione menu e titolo pagina  */
+
+
+/* inizio sezione main */
+
+main{
+width:80%;
+height: 1800px;
+max-height: 2000px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.scarpa{
+border-radius: 10px;
+margin-top: 20px;
+margin-top:
+width: 100%;
+height: 500px;
+background-color:rgba(0,0,0,0.8);
+text-align: center;
+}
+.descrizione{
+margin-top: 10px;
+border-radius: 10px;
+width:100%;
+height:10vh;
+background-color: yellow;
+}
